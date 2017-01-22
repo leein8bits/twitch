@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  background: lavender;
+  margin: auto;
+  width: 90%;
+}
+
+.container div {
+  background: lightpurple;
+  margin-bottom: 20px;
+}
+
+.container img {
+  height: 100px;
+  margin: auto;
+}
+
+.container h1 {
+  background-color: lightgreen;
+  padding: 10px;
+  border-style: inset;
+  border-color: lightgray;
+  margin: auto;
+  display: block;
+}
+
+.deets {
+  background-color: lightslategray;
+  margin: auto;
+  border-style: inset;
+  border-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background-color: lavender;
+  width: 90%;
+  margin: auto;
+}
+
+.name {
+  background-color: lavender;
+}
+
+.menu {
+  width: 30%;
+  max-width: 200px;
+  background-color: lime;
+  margin: 0px 10px;
+}
+
+li {
+  padding-left: 5px;
+  list-style: none;
+}
+
+.activeLi {
+  width: 90%;
+}
+
+.doesNotLi {
+  background-color: red;
+}
+
+.onLi {
+  background-color: lightgreen;
+}
+
+.offLi {
+  background-color: orangered;
+}
+
+.allLi {
+  background-color: blueViolet;
+}
+
+.hidden {
+  display: none;
+}
+
+.on h1 {
+  background-color: lightgreen;
+}
+
+.off h1 {
+  background-color: orangered;
+}
+
+.exist h1 {
+  background-color: red;
+}
+
+.name h1 {
+  background-color: blueViolet;
+  padding: 10px;
+}
+
+@media screen and (min-device-width: 1200px) {
+  .wrapper {
+    width: 70%;
+    padding-top: 20px;
+  }
+}
